@@ -1,3 +1,4 @@
+/* eslint-disable */
 // Importation
 require('dotenv').config();
 const cors = require('cors');
@@ -5,18 +6,9 @@ const express = require('express');
 
 const router = express.Router();
 
-const connection = require('./db-config');
-
 const app = express();
 
 const port = process.env.PORT || 3000;
-connection.connect((err) => {
-  if (err) {
-    console.error(`error connecting: ${err.stack}`);
-  } else {
-    console.log(`connected as id ${connection.threadId}`);
-  }
-});
 
 const allowedOrigins = process.env.CORS_ALLOWED_ORIGINS.split(',');
 const corsOptions = {
@@ -79,6 +71,39 @@ prod & song template :
 
 */
 
+const profiles = [
+  {
+    id: 1,
+    firstname: 'Eder',
+    lastname: 'Goncalves',
+    pseudo: 'Dr Wouse',
+    avatar: '/',
+    instagram: '/',
+    linkedin: '/',
+    prods: [
+      {
+        id: 1,
+        name: '#',
+        duration: '3min20s',
+        genres: ['trap', 'drill'],
+        authors: ['William Louis-Louisy'],
+      },
+    ],
+    followers: 5,
+  },
+  {
+    id: 2,
+    firstname: 'William',
+    lastname: 'Louis-Louisy',
+    pseudo: 'BLB',
+    avatar: '/',
+    instagram: '/',
+    linkedin: '/',
+    songs: ['First Song', 'Second Song'],
+    followers: 67,
+  }
+];
+
 const beatmakers = [
   {
     id: 1,
@@ -124,7 +149,6 @@ const songs = [
     authors: ['William Louis-Louisy'],
   },
 ];
-
 // ROUTE
 
 // Création des routers
@@ -137,6 +161,9 @@ app.use('/singers', singersRouter);
 
 const songsRouter = express.Router();
 app.use('/songs', songsRouter);
+
+const profileRouter = express.Router();
+app.use('/profile', profileRouter);
 
 // Beatmakers
 
@@ -155,6 +182,15 @@ singersRouter.get('/', (req, res) => {
 songsRouter.get('/', (req, res) => {
   console.log('handling songs');
   res.send(songs);
+});
+
+profileRouter.get('/:id', (req, res) => {
+  console.log('handling profile', req.params.id)
+  const id = req.params.id;
+  const profile = profiles.filter((p) => p.id === parseInt(id) )
+  console.log('handling profile');
+  console.log(profile[0]);
+  res.send(profile[0]);
 });
 
 app.listen(port, () => {
