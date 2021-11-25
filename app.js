@@ -101,7 +101,7 @@ const profiles = [
     linkedin: '/',
     songs: ['First Song', 'Second Song'],
     followers: 67,
-  }
+  },
 ];
 
 const beatmakers = [
@@ -149,6 +149,18 @@ const songs = [
     authors: ['William Louis-Louisy'],
   },
 ];
+
+const users = [
+  {
+    id: 1,
+    name: 'Yannis',
+    role: 'Singer',
+    image: 'https://ibb.co/J2J4L1g',
+    views: 2300,
+    upploads: 12,
+    followers: 145,
+  },
+];
 // ROUTE
 
 // Création des routers
@@ -164,6 +176,9 @@ app.use('/songs', songsRouter);
 
 const profileRouter = express.Router();
 app.use('/profile', profileRouter);
+
+const userRouter = express.Router();
+app.use('/user', userRouter);
 
 // Beatmakers
 
@@ -185,12 +200,19 @@ songsRouter.get('/', (req, res) => {
 });
 
 profileRouter.get('/:id', (req, res) => {
-  console.log('handling profile', req.params.id)
+  console.log('handling profile', req.params.id);
   const id = req.params.id;
-  const profile = profiles.filter((p) => p.id === parseInt(id) )
+  const profile = profiles.filter((p) => p.id === parseInt(id));
   console.log('handling profile');
   console.log(profile[0]);
   res.send(profile[0]);
+});
+
+userRouter.get('/:id', (req, res) => {
+  console.log('handling user');
+  const id = req.params.id;
+  const user = users.filter((u) => u.id === parseInt(id));
+  res.send(user);
 });
 
 app.listen(port, () => {
