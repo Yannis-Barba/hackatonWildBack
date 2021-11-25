@@ -101,7 +101,7 @@ const profiles = [
     linkedin: '/',
     songs: ['First Song', 'Second Song'],
     followers: 67,
-  }
+  },
 ];
 
 const beatmakers = [
@@ -128,7 +128,7 @@ const beatmakers = [
 
 const singers = [
   {
-    id: 1,
+    id: 101,
     firstname: 'William',
     lastname: 'Louis-Louisy',
     pseudo: 'BLB',
@@ -143,10 +143,43 @@ const singers = [
 const songs = [
   {
     id: 1,
-    name: '#',
+    name: 'Hello World',
     duration: '3min20s',
     genres: ['trap', 'drill'],
-    authors: ['William Louis-Louisy'],
+    image:"",
+    sources: '',
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Hello World',
+    duration: '3min20s',
+    genres: ['trap', 'drill'],
+    image:"",
+    sources: '',
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
   },
 ];
 // ROUTE
@@ -185,9 +218,9 @@ songsRouter.get('/', (req, res) => {
 });
 
 profileRouter.get('/:id', (req, res) => {
-  console.log('handling profile', req.params.id)
+  console.log('handling profile', req.params.id);
   const id = req.params.id;
-  const profile = profiles.filter((p) => p.id === parseInt(id) )
+  const profile = profiles.filter((p) => p.id === parseInt(id));
   console.log('handling profile');
   console.log(profile[0]);
   res.send(profile[0]);
