@@ -1,9 +1,10 @@
 // Importation
 require('dotenv').config();
 const cors = require('cors');
+const express = require('express');
+
 const router = express.Router();
 
-const express = require('express');
 const connection = require('./db-config');
 
 const app = express();
@@ -30,7 +31,6 @@ const corsOptions = {
 };
 
 // Initialisation of the app
-const app = express();
 app.use(cors(corsOptions));
 // add function to the app
 app.use('/', router);
@@ -114,6 +114,48 @@ const singers = [
     followers: 67,
   },
 ];
+
+const songs = [
+  {
+    id: 1,
+    name: '#',
+    duration: '3min20s',
+    genres: ['trap', 'drill'],
+    authors: ['William Louis-Louisy'],
+  },
+];
+
+// ROUTE
+
+// Création des routers
+
+const beatmakersRouter = express.Router();
+app.use('/beatmakers', beatmakersRouter);
+
+const singersRouter = express.Router();
+app.use('/singers', singersRouter);
+
+const songsRouter = express.Router();
+app.use('/songs', songsRouter);
+
+// Beatmakers
+
+// Get Beatmakers
+
+beatmakersRouter.get('/', (req, res) => {
+  console.log('handling beatmakersRouter');
+  res.send(beatmakers);
+});
+
+singersRouter.get('/', (req, res) => {
+  console.log('handling singers');
+  res.send(singers);
+});
+
+songsRouter.get('/', (req, res) => {
+  console.log('handling songs');
+  res.send(songs);
+});
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
