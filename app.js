@@ -160,6 +160,15 @@ const users = [
     upploads: 12,
     followers: 145,
   },
+  {
+    id: 2,
+    name: 'Eder',
+    role: 'Beatmaker',
+    image: 'https://ibb.co/J2J4L1g',
+    views: 25000,
+    upploads: 134,
+    followers: 600,
+  },
 ];
 // ROUTE
 
