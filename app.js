@@ -190,7 +190,7 @@ let beatmakers = [
         duration: '3min24s',
         genres: ['trap', 'drill'],
         image: 'https://www.journaldugeek.com/files/2012/06/Screenshot_2.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/450724ba-6667-42c8-8849-b0d7a0f440da/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -208,7 +208,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://www.aimm.edu/hs-fs/hubfs/Blog%20Images/Top%2010%20Album%20Covers%20of%202017/Tyler%20the%20Creator-%20Flower%20boy.jpg?width=719&name=Tyler%20the%20Creator-%20Flower%20boy.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/a98d715e-63c2-473c-a529-a67b1a01eeb7/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -237,7 +237,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://i.pinimg.com/originals/8c/d6/b7/8cd6b72ff980245cd55044239c7d1e28.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/e310ee42-aed8-4795-9e67-c660db44c45b/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -255,7 +255,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://preview.redd.it/gfyugyna3v961.jpg?auto=webp&s=ca23adf963bcc5e5f6ee0b0d160329a68885f2c7',
-        sources: '',
+        sources: 'https://ucarecdn.com/a98d715e-63c2-473c-a529-a67b1a01eeb7/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -330,7 +330,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://www.lucas-uzan.fr/wp-content/uploads/2019/12/angular.png',
-        sources: '',
+        sources: 'https://ucarecdn.com/a4f9b89d-9966-4eb3-8c6c-3a3c51779306',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -348,7 +348,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://yt3.ggpht.com/ytc/AKedOLSINDCTBP5dCvg2v1wmh2c2jtwmmUnOTISjY3-njQ=s900-c-k-c0x00ffffff-no-rj',
-        sources: '',
+        sources: 'https://ucarecdn.com/3fc09d87-2e12-448d-9765-d308f9e460ad',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -377,7 +377,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://pbs.twimg.com/profile_images/622137160213340160/lhzBmyNC_400x400.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/3fc09d87-2e12-448d-9765-d308f9e460ad',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -395,7 +395,7 @@ let beatmakers = [
         genres: ['trap', 'drill'],
         image:
           'https://pbs.twimg.com/profile_images/622137160213340160/lhzBmyNC_400x400.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/a4f9b89d-9966-4eb3-8c6c-3a3c51779306',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -426,7 +426,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://france3-regions.francetvinfo.fr/image/R5YYV1T5VqGrb8XmtjVJfy03tnc/600x400/regions/2021/08/12/61151d28c322f_maxbestof150033-5423225.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -444,7 +444,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://france3-regions.francetvinfo.fr/image/R5YYV1T5VqGrb8XmtjVJfy03tnc/600x400/regions/2021/08/12/61151d28c322f_maxbestof150033-5423225.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -473,7 +473,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://www.filsantejeunes.com/wp-content/uploads/2005/05/dangers-nuit.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -491,7 +491,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://www.filsantejeunes.com/wp-content/uploads/2005/05/dangers-nuit.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -519,7 +519,7 @@ let singers = [
         duration: '3min24s',
         genres: ['trap', 'drill'],
         image: 'https://auxparaiges.fr/wp-content/uploads/2020/11/Chouffe.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -537,7 +537,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://tourisme-maredsous.be/wp-content/uploads/2017/07/biere_dabbaye_groot_logo-1.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -566,7 +566,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://e.snmc.io/i/1200/s/7d22e83f88e475538424b2e2b839b0d8/1758704',
-        sources: '',
+        sources: 'https://ucarecdn.com/0cd50c3f-f735-453f-8ed6-bf5210e6986d',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -584,7 +584,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://e.snmc.io/i/1200/s/7d22e83f88e475538424b2e2b839b0d8/1758704',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -613,7 +613,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://static.fnac-static.com/multimedia/Images/FR/NR/94/28/14/1321108/1540-1/tsp20131204170026/The-Eminem-Show.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -631,7 +631,7 @@ let singers = [
         genres: ['trap', 'drill'],
         image:
           'https://static.fnac-static.com/multimedia/Images/FR/NR/94/28/14/1321108/1540-1/tsp20131204170026/The-Eminem-Show.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -661,7 +661,7 @@ let profiles = [
         duration: '3min24s',
         genres: ['trap', 'drill'],
         image: 'https://www.journaldugeek.com/files/2012/06/Screenshot_2.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/450724ba-6667-42c8-8849-b0d7a0f440da/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -679,7 +679,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://www.aimm.edu/hs-fs/hubfs/Blog%20Images/Top%2010%20Album%20Covers%20of%202017/Tyler%20the%20Creator-%20Flower%20boy.jpg?width=719&name=Tyler%20the%20Creator-%20Flower%20boy.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/a98d715e-63c2-473c-a529-a67b1a01eeb7/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -708,7 +708,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://i.pinimg.com/originals/8c/d6/b7/8cd6b72ff980245cd55044239c7d1e28.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/e310ee42-aed8-4795-9e67-c660db44c45b/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -726,7 +726,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://preview.redd.it/gfyugyna3v961.jpg?auto=webp&s=ca23adf963bcc5e5f6ee0b0d160329a68885f2c7',
-        sources: '',
+        sources: 'https://ucarecdn.com/a98d715e-63c2-473c-a529-a67b1a01eeb7/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -801,7 +801,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://www.lucas-uzan.fr/wp-content/uploads/2019/12/angular.png',
-        sources: '',
+        sources: 'https://ucarecdn.com/a4f9b89d-9966-4eb3-8c6c-3a3c51779306',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -819,7 +819,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://yt3.ggpht.com/ytc/AKedOLSINDCTBP5dCvg2v1wmh2c2jtwmmUnOTISjY3-njQ=s900-c-k-c0x00ffffff-no-rj',
-        sources: '',
+        sources: 'https://ucarecdn.com/3fc09d87-2e12-448d-9765-d308f9e460ad',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -848,7 +848,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://pbs.twimg.com/profile_images/622137160213340160/lhzBmyNC_400x400.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/3fc09d87-2e12-448d-9765-d308f9e460ad',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -866,7 +866,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://pbs.twimg.com/profile_images/622137160213340160/lhzBmyNC_400x400.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/a4f9b89d-9966-4eb3-8c6c-3a3c51779306',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -880,7 +880,6 @@ let profiles = [
     ],
     followers: 1000,
   },
-
   {
     id: 101,
     firstname: 'Yannis',
@@ -895,7 +894,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://france3-regions.francetvinfo.fr/image/R5YYV1T5VqGrb8XmtjVJfy03tnc/600x400/regions/2021/08/12/61151d28c322f_maxbestof150033-5423225.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -913,7 +912,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://france3-regions.francetvinfo.fr/image/R5YYV1T5VqGrb8XmtjVJfy03tnc/600x400/regions/2021/08/12/61151d28c322f_maxbestof150033-5423225.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -942,7 +941,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://www.filsantejeunes.com/wp-content/uploads/2005/05/dangers-nuit.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -960,7 +959,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://www.filsantejeunes.com/wp-content/uploads/2005/05/dangers-nuit.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -988,7 +987,7 @@ let profiles = [
         duration: '3min24s',
         genres: ['trap', 'drill'],
         image: 'https://auxparaiges.fr/wp-content/uploads/2020/11/Chouffe.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1006,7 +1005,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://tourisme-maredsous.be/wp-content/uploads/2017/07/biere_dabbaye_groot_logo-1.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1035,7 +1034,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://e.snmc.io/i/1200/s/7d22e83f88e475538424b2e2b839b0d8/1758704',
-        sources: '',
+        sources: 'https://ucarecdn.com/0cd50c3f-f735-453f-8ed6-bf5210e6986d',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1053,7 +1052,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://e.snmc.io/i/1200/s/7d22e83f88e475538424b2e2b839b0d8/1758704',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1082,7 +1081,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://static.fnac-static.com/multimedia/Images/FR/NR/94/28/14/1321108/1540-1/tsp20131204170026/The-Eminem-Show.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1100,7 +1099,7 @@ let profiles = [
         genres: ['trap', 'drill'],
         image:
           'https://static.fnac-static.com/multimedia/Images/FR/NR/94/28/14/1321108/1540-1/tsp20131204170026/The-Eminem-Show.jpg',
-        sources: '',
+        sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
         views: Math.floor(Math.random() * 1000),
         likes: Math.floor(Math.random() * 400),
         authors: [
@@ -1124,7 +1123,7 @@ let songs = [
     genres: ['trap', 'drill'],
     image:
       'https://i.pinimg.com/236x/77/93/3e/77933e4888fd4441fb5ecfb38cae3f68--lp-cover-cover-art.jpg',
-    sources: '',
+    sources: 'https://ucarecdn.com/0cd50c3f-f735-453f-8ed6-bf5210e6986d',
     views: Math.floor(Math.random() * 1000),
     likes: Math.floor(Math.random() * 400),
     authors: [
@@ -1148,7 +1147,7 @@ let songs = [
     genres: ['trap', 'drill'],
     image:
       'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT04lpHD6IsrQuTFtESaOeZxbV52B3mG9PLrQ&usqp=CAU',
-    sources: '',
+    sources: 'https://ucarecdn.com/b493febc-60d7-4386-9189-1deeebe4e4cc',
     views: Math.floor(Math.random() * 1000),
     likes: Math.floor(Math.random() * 400),
     authors: [
@@ -1172,7 +1171,7 @@ let songs = [
     genres: ['trap', 'drill'],
     image:
       'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/37618e100194625.5f03b7eec6e1c.png',
-    sources: '',
+    sources: 'https://ucarecdn.com/79c3453a-54cf-4fbc-9315-496f87e83f76',
     views: Math.floor(Math.random() * 1000),
     likes: Math.floor(Math.random() * 400),
     authors: [
@@ -1196,7 +1195,7 @@ let songs = [
     genres: ['trap', 'drill'],
     image:
       'https://i.pinimg.com/736x/1a/2c/20/1a2c200cab0d8b1859532533b8752588--classic-album-covers-music-album-covers.jpg',
-    sources: '',
+    sources: 'https://ucarecdn.com/dd2685c6-b805-440e-b7fb-f3873befd82f',
     views: Math.floor(Math.random() * 1000),
     likes: Math.floor(Math.random() * 400),
     authors: [
@@ -1220,7 +1219,7 @@ let songs = [
     genres: ['trap', 'drill'],
     image:
       'https://i.pinimg.com/736x/1a/2c/20/1a2c200cab0d8b1859532533b8752588--classic-album-covers-music-album-covers.jpg',
-    sources: '',
+    sources: 'https://ucarecdn.com/c7d16080-2127-4bb4-af87-a501f3e9a46f/',
     views: Math.floor(Math.random() * 1000),
     likes: Math.floor(Math.random() * 400),
     authors: [
