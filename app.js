@@ -71,7 +71,12 @@ prod & song template :
 
 */
 
-const profiles = [
+let songsId = 2;
+let profilesId = 2;
+let beatmakersId = 1;
+let singersId = 101;
+
+let profiles = [
   {
     id: 1,
     firstname: 'Eder',
@@ -104,7 +109,7 @@ const profiles = [
   },
 ];
 
-const beatmakers = [
+let beatmakers = [
   {
     id: 1,
     firstname: 'Eder',
@@ -126,7 +131,7 @@ const beatmakers = [
   },
 ];
 
-const singers = [
+let singers = [
   {
     id: 101,
     firstname: 'William',
@@ -140,13 +145,13 @@ const singers = [
   },
 ];
 
-const songs = [
+let songs = [
   {
     id: 1,
     name: 'Hello World',
     duration: '3min20s',
     genres: ['trap', 'drill'],
-    image:"",
+    image: '',
     sources: '',
     authors: [
       {
@@ -166,7 +171,7 @@ const songs = [
     name: 'Hello World',
     duration: '3min20s',
     genres: ['trap', 'drill'],
-    image:"",
+    image: '',
     sources: '',
     authors: [
       {
@@ -183,7 +188,7 @@ const songs = [
   },
 ];
 
-const users = [
+let users = [
   {
     id: 1,
     name: 'Yannis',
@@ -239,6 +244,33 @@ singersRouter.get('/', (req, res) => {
 songsRouter.get('/', (req, res) => {
   console.log('handling songs');
   res.send(songs);
+});
+
+songsRouter.post('/', (req, res) => {
+  console.log('posting a song');
+  const { image, music, title, description } = req.body;
+  console.log(image, music, title, description);
+  songsId += 1;
+  songs.push({
+    id: songsId,
+    name: title,
+    duration: 'XXX',
+    genres: ['trap', 'drill'],
+    image: image,
+    sources: music,
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
+  });
 });
 
 profileRouter.get('/:id', (req, res) => {
