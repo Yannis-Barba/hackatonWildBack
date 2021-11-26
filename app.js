@@ -128,7 +128,7 @@ const beatmakers = [
 
 const singers = [
   {
-    id: 1,
+    id: 101,
     firstname: 'William',
     lastname: 'Louis-Louisy',
     pseudo: 'BLB',
@@ -143,10 +143,43 @@ const singers = [
 const songs = [
   {
     id: 1,
-    name: '#',
+    name: 'Hello World',
     duration: '3min20s',
     genres: ['trap', 'drill'],
-    authors: ['William Louis-Louisy'],
+    image:"",
+    sources: '',
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
+  },
+  {
+    id: 2,
+    name: 'Hello World',
+    duration: '3min20s',
+    genres: ['trap', 'drill'],
+    image:"",
+    sources: '',
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
   },
 ];
 
