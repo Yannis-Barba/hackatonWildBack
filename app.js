@@ -121,10 +121,20 @@ let beatmakers = [
     prods: [
       {
         id: 1,
-        name: '#',
+        name: 'Hello World',
         duration: '3min20s',
         genres: ['trap', 'drill'],
-        authors: ['William Louis-Louisy'],
+        image: '',
+        sources: '',
+        views: Math.floor(Math.random() * 1000),
+        likes: Math.floor(Math.random() * 400),
+        authors: [
+          {
+            id: 1,
+            pseudo: 'Dr Wouse',
+            role: 'beatmaker',
+          },
+        ],
       },
     ],
     followers: 5,
@@ -136,12 +146,35 @@ let singers = [
     id: 101,
     firstname: 'William',
     lastname: 'Louis-Louisy',
-    pseudo: 'BLB',
+    pseudo: 'DBD',
     avatar: '/',
     instagram: '/',
     linkedin: '/',
-    songs: ['First Song', 'Second Song'],
-    followers: 67,
+    prods: [
+      {
+        id: 1,
+        name: 'Hello World',
+        duration: '3min20s',
+        genres: ['trap', 'drill'],
+        image: '',
+        sources: '',
+        views: Math.floor(Math.random() * 1000),
+        likes: Math.floor(Math.random() * 400),
+        authors: [
+          {
+            id: 101,
+            pseudo: 'DBD',
+            role: 'singer',
+          },
+          {
+            id: 1,
+            pseudo: 'Dr Wouse',
+            role: 'beatmaker',
+          },
+        ],
+      },
+    ],
+    followers: 5,
   },
 ];
 
@@ -201,6 +234,7 @@ let users = [
     views: Math.floor(Math.random() * 50000),
     upploads: Math.floor(Math.random() * 50),
     followers: Math.floor(Math.random() * 1000),
+    prods: [],
   },
   {
     id: 2,
@@ -277,6 +311,29 @@ songsRouter.post('/', (req, res) => {
       },
     ],
   });
+  users[0].prods.push({
+    id: songsId,
+    name: title,
+    duration: 'XXX',
+    genres: ['trap', 'drill'],
+    image: image,
+    sources: music,
+    views: Math.floor(Math.random() * 1000),
+    likes: Math.floor(Math.random() * 400),
+    authors: [
+      {
+        id: 101,
+        pseudo: 'BLB',
+        role: 'singer',
+      },
+      {
+        id: 1,
+        pseudo: 'Dr Wouse',
+        role: 'beatmaker',
+      },
+    ],
+  });
+  res.status(200).send('song insert into songs');
 });
 
 profileRouter.get('/:id', (req, res) => {
