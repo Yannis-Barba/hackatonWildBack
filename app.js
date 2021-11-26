@@ -153,6 +153,8 @@ let songs = [
     genres: ['trap', 'drill'],
     image: '',
     sources: '',
+    views: Math.floor(Math.random() * 1000),
+    likes: Math.floor(Math.random() * 400),
     authors: [
       {
         id: 101,
@@ -173,6 +175,8 @@ let songs = [
     genres: ['trap', 'drill'],
     image: '',
     sources: '',
+    views: Math.floor(Math.random() * 1000),
+    likes: Math.floor(Math.random() * 400),
     authors: [
       {
         id: 101,
@@ -194,18 +198,18 @@ let users = [
     name: 'Yannis',
     role: 'Singer',
     image: 'https://ibb.co/J2J4L1g',
-    views: 2300,
-    upploads: 12,
-    followers: 145,
+    views: Math.floor(Math.random() * 50000),
+    upploads: Math.floor(Math.random() * 50),
+    followers: Math.floor(Math.random() * 1000),
   },
   {
     id: 2,
     name: 'Eder',
     role: 'Beatmaker',
     image: 'https://ibb.co/J2J4L1g',
-    views: 25000,
-    upploads: 134,
-    followers: 600,
+    views: Math.floor(Math.random() * 50000),
+    upploads: Math.floor(Math.random() * 50),
+    followers: Math.floor(Math.random() * 1000),
   },
 ];
 // ROUTE
@@ -258,6 +262,8 @@ songsRouter.post('/', (req, res) => {
     genres: ['trap', 'drill'],
     image: image,
     sources: music,
+    views: Math.floor(Math.random() * 1000),
+    likes: Math.floor(Math.random() * 400),
     authors: [
       {
         id: 101,
